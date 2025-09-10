@@ -20,7 +20,12 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col gap-6 items-center my-4 w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 mx-auto">{getImages()}</div>
+    <>
+      <h1 className="text-2xl font-bold text-center">Image Comparison</h1>
+      <div className="flex flex-col gap-12 items-center my-4 w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 mx-auto">
+        {getImages()}
+      </div>
+    </>
   );
 }
 
