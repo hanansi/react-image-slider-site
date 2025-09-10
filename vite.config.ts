@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "https://hanansi.github.io/react-image-slider-site/",
   plugins: [react(),
   tailwindcss(),
   ],
