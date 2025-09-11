@@ -9,7 +9,7 @@ function App() {
     let content = [];
 
     for (let i = 0; i + 2 <= imagePaths.length; i += 2) {
-      content.push(<div className="w-full max-w-sm mx-auto">
+      content.push(<div className="w-full max-w-72 mx-auto touch-none">
                     <ReactBeforeSliderComponent 
                         firstImage={{imageUrl: imagePaths[i]}} 
                         secondImage={{imageUrl: imagePaths[i + 1]}} />
